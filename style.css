@@ -1,0 +1,37 @@
+body{
+
+    background-image: url(https://api.learntechww.com/college_banner_image/logo1736418204563.webp);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.523);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(240, 255, 255, 0.775);
+    padding: 10px;
+    border-radius: 20px;
+}
+form{
+    text-align: center;
+}
+button{
+    background-color: rgb(163, 206, 236);
+    color: white;
+    border-radius: 10px;
+}

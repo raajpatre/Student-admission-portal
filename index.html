@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="nst.png" style="width: 260px; height: 80px;">
+        <div class="TITLE">
+            <h1>Newton College - Student Admission Portal</h1>
+            <h2 style="text-decoration: underline;">Welcome to the Online Admission Form</h2>
+        </div>
+    </div>
+    <div class="content" >
+        <p>Please fill in your details accurately to apply for Admission to your preffered course</p>
+        <form action="submit/">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <br><br>
+            <label for="contact">Contact</label>
+            <input type="tel" id="contact">
+            <br><br>
+            <label for="gender">Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender">
+            <br><br>
+            <label for="course">Select Course</label>
+            <select name="course" id="course">
+                <option value="AI">Artifical intelligence</option>
+                <option value="robo">Robotics</option>
+                <option value="web">Web Dev</option>
+            </select>
+            <br><br>
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="20"></textarea>
+            <br><br>
+            <label for="photo">Upload photo</label>
+            <input type="file" name="photo" id="photo">
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer><p style="color: white;">© 2025 Newton College. All rights reserved.</p></footer>
+    </body>
+</html>
